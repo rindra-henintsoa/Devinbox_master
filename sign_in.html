@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Devinbox Board</title>
+  <title>DevinboxBoard</title>
   <link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -15,16 +15,17 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/custom_style.css">
 </head>
-<body>
+<body class="bg-sign-in">
   <!--================Header Menu Area =================-->
   <header class="header_area">
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.html">Devinbox Board</a>
+          <a class="navbar-brand logo_h" href="index.html">DevinboxBoard</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -36,15 +37,6 @@
               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="products.html" >Modules</a></li>
               <li class="nav-item"><a class="nav-link" href="feature.html">À propos</a></li>
-              <!--<li class="nav-item active submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Products</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a></li>
-                  <li class="nav-item"><a class="nav-link" href="products.html">All products</a></li>
-                </ul>
-              </li>-->
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
 
@@ -58,45 +50,62 @@
       </nav>
     </div>
   </header>
-  <!--================Header Menu Area =================-->
 
-  <section class="sign_in_bg">
-    <div class="container">
-      <div class="sign_in_content">
-        <div class="row">
-        <div class="col-lg-6">
-          <img src="img/packages/sign_in_img.jpg">
-        </div>
-         <div class="sign_in_form col-lg-6">
-            <h2><center>Welcome back</center></h2>
 
-            <input type="email" class="form-control mb-4" name="mail" placeholder="Enter Email Adress">
+  <div class="container">
 
-            <input type="password" class="form-control mb-4" name="mail" placeholder="Password">
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
 
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+      <div class="col-xl-10 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Welcome back!</h1>
+                  </div>
+                  <form class="user">
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <label class="custom-control-label" for="customCheck">Remember Me</label>
+                      </div>
+                    </div>
+                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                      Login
+                    </a>
+                    <!-- <hr>
+                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                      <i class="fab fa-google fa-fw"></i> Login with Google
+                    </a>
+                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                    </a> -->
+                  </form>
+                  
+                  <hr>
+                  <div class="text-center">
+                    <p class="small pt-5 pb-5" href="">Copyright ©2020 All rights reserved <br> |Made with passion by <a target="_blank" href="www.devinbox.com">www.dev-inbox.com</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <button type="submit">Login</button>
-
-            <div class="rights">
-              Copyright &copy; 2020 All rights reserved <br>
-              |Made with passion by <a href="#">www.devinbox.com</a>
-            </div>
+          </div>
         </div>
+
       </div>
-      </div>
+
     </div>
-  </section>
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/mail-script.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/product.js"></script>
-</body>
-</html>
+  </div>
