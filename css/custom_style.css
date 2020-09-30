@@ -337,3 +337,114 @@ bottom: 0;
 .form-contact .different-control {
 	height: 250px !important;
 }
+
+.production .card-pricing {
+	height: 610px !important;
+}
+
+
+.drop {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-top: 8px
+}
+.header_area .navbar .nav .nav-item:hover .drop, .header_area .navbar .nav .nav-item.active .drop {
+  color: #fff;
+  opacity: .75;
+  text-decoration: none;b
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.production .card {
+  height: unset !important; 
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center !important;
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #212529;
+}
+.text-center {
+    text-align: center !important;
+}
+.card-body .card-title {
+    margin: 0;
+}
+.list-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center !important;
+}
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center !important;
+}
+.card-footer a:hover {
+	color: #212529;
+	text-decoration: underline;
+}
+.bg-500 {
+    background-color: #adb5bd !important;
+    color: #212529;
+}
+.bg-alpha {
+    background-color: #141631 !important;
+    color: #212529;
+}
+.bg-200 {
+	background-color: #e9ecef !important;
+	color: #212529;
+}
+.bg-white-25 {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    color: #212529;
+}
