@@ -90,4 +90,26 @@ $(function() {
       scrollTop:0}, 1000 );
   })
 
+    $('.chat').arctext({radius: 120, dir: -1});
+    $('.mobility').arctext({radius: 90, dir: 1});
+    $('.recrut').arctext({radius: 120, dir: -1});
+    $('.formation').arctext({radius: 100, dir: 1});
+
+    $('.formation-area > .formation').click(function(){
+                $(this).nextAll().toggleClass('show');
+            })
+
+    $('.modality-area > .mobility').click(function(){
+                $(this).nextAll().toggleClass('show');
+            })
+
+    $('.chat-area > .chat').click(function(){
+                $(this).nextAll().toggleClass('show');
+            })
+
+    $('.recrut-area > .recrut').click(function(){
+                $(this).nextAll().toggleClass('show');
+            })
+
+
 
